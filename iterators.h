@@ -20,7 +20,7 @@
 #include <boost/compute/buffer.hpp>
 #include <boost/compute/buffer.hpp>
 
-#def PRINTOP
+#undef PRINTOP
 
 template<typename Container, typename iterator_tag = std::random_access_iterator_tag>
 class Iterator_facaded : public boost::iterator_facade<Iterator_facaded<Container>, typename Container::value_type, iterator_tag, ::boost::compute::detail::buffer_value<typename Container::value_type>>{
@@ -111,14 +111,14 @@ public:
     using reference = typename super_type::reference;
     using difference_type = typename super_type::difference_type;
 
-    Iterator_facaded_buff(Container &vec) : m_index(0), m_buffer(vec.get_buffer()){}
-    Iterator_facaded_buff(Container &vec, int start) : m_index(start), m_buffer(vec.get_buffer()){}
+    Iterator_facaded_buff(Container &vec) : m_index(0), m_buffer(vec.get_buffer().get(), false){}
+    Iterator_facaded_buff(Container &vec, int start) : m_index(start), m_buffer(vec.get_buffer().get(), false){}
 
     ~Iterator_facaded_buff(){m_buffer.get() = 0;}
 
     size_t get_index(void) const{
 #ifdef PRINTOP
-        printf("int Iterator_facaded::get_index(void)  i %d\n", i_);
+        printf("int Iterator_facaded::get_index(void)  i %d\n", m_index);
 #endif
         return m_index;
     }
@@ -142,42 +142,42 @@ public:
 private:
     void increment() {
 #ifdef PRINTOP
-        printf("void Iterator_facaded::increment(void)  i %d\n", i_);
+        printf("void Iterator_facaded::increment(void)  i %d\n", m_index);
 #endif
         m_index++;
     }
 
     bool equal(Iterator_facaded_buff const& other) const {
 #ifdef PRINTOP
-        printf("bool Iterator_facaded::increment(Iterator_facaded const&) const  i %d\n", i_);
+        printf("bool Iterator_facaded::increment(Iterator_facaded const&) const  i %d\n", m_index);
 #endif
-        return this->m_index == other.m_index && this->m_buffer.get() == other.m_buffer.get();
+        return this->m_index == other.m_index && m_buffer.get() == other.m_buffer.get();
     }
 
     reference dereference() const {
 #ifdef PRINTOP
-        printf("reference Iterator_facaded::dereference(void)  i %d\n", i_);
+        printf("reference Iterator_facaded::dereference(void)  i %d %g\n", m_index, boost::compute::detail::buffer_value<T>(m_buffer, m_index * sizeof(T)));
 #endif
-        return boost::compute::detail::buffer_value<T>(this->m_buffer, m_index * sizeof(T));
+        return boost::compute::detail::buffer_value<T>(m_buffer, m_index * sizeof(T));
     }
 
     void decrement(){
 #ifdef PRINTOP
-        printf("void Iterator_facaded::decrement(void)  i %d\n", i_);
+        printf("void Iterator_facaded::decrement(void)  i %d\n", m_index);
 #endif
         m_index--;
     };
 
     void advance(int n){
 #ifdef PRINTOP
-        printf("void Iterator_facaded::advance(int)  i %d\n", i_);
+        printf("void Iterator_facaded::advance(int)  i %d\n", m_index);
 #endif
         m_index = static_cast<size_t>(static_cast<difference_type>(m_index) + n);
     };
 
     int distance_to(const Iterator_facaded_buff<T> &other) const{
 #ifdef PRINTOP
-        printf("int Iterator_facaded::distance_to(const Iterator_facaded<T> &other)  i %d\n", i_);
+        printf("int Iterator_facaded::distance_to(const Iterator_facaded<T> &other)  i %d\n", m_index);
 #endif
         return static_cast<difference_type>(this->m_index - other.m_index);
     }

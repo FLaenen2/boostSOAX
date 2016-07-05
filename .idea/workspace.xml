@@ -33,11 +33,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="234" column="17" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
+                <state relative-caret-position="510">
+                  <caret line="274" column="6" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
                   <folding>
                     <element signature="e#0#17#0" expanded="true" />
                     <element signature="e#611#623#0" expanded="true" />
@@ -54,8 +54,8 @@
           <file leaf-file-name="buffer_iterator.hpp" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/iterator/buffer_iterator.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="327">
-                  <caret line="164" column="5" selection-start-line="161" selection-start-column="3" selection-end-line="164" selection-end-column="5" />
+                <state relative-caret-position="231">
+                  <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
                   <folding>
                     <element signature="e#543#561#0" expanded="true" />
                     <element signature="e#5565#5577#0" expanded="true" />
@@ -64,11 +64,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="vector.hpp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="vector.hpp" pinned="false" current-in-tab="true">
             <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="306" column="24" selection-start-line="306" selection-start-column="19" selection-end-line="306" selection-end-column="24" />
+                <state relative-caret-position="462">
+                  <caret line="730" column="0" selection-start-line="730" selection-start-column="0" selection-end-line="730" selection-end-column="0" />
                   <folding>
                     <element signature="e#763#798#0" expanded="true" />
                   </folding>
@@ -84,6 +84,16 @@
                   <folding>
                     <element signature="e#1172#1236#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="buffer.hpp" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/buffer.hpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="246">
+                  <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -129,35 +139,35 @@
           <file leaf-file-name="iterators.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/iterators.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+                <state relative-caret-position="390">
+                  <caret line="109" column="51" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
                   <folding>
                     <element signature="e#119#136#0" expanded="true" />
-                    <element signature="e#638#715#0" expanded="true" />
-                    <element signature="e#1995#2056#0" expanded="true" />
-                    <element signature="e#2162#2248#0" expanded="true" />
-                    <element signature="e#2419#2482#0" expanded="true" />
-                    <element signature="e#2575#2636#0" expanded="true" />
-                    <element signature="e#2718#2776#0" expanded="true" />
-                    <element signature="e#2865#2925#0" expanded="true" />
-                    <element signature="e#3047#3137#0" expanded="true" />
-                    <element signature="e#3286#3355#0" expanded="true" />
-                    <element signature="e#4126#4186#0" expanded="true" />
-                    <element signature="e#4328#4340#0" expanded="true" />
-                    <element signature="e#4724#4785#0" expanded="true" />
-                    <element signature="e#4901#4987#0" expanded="true" />
-                    <element signature="e#5156#5224#0" expanded="true" />
-                    <element signature="e#5377#5438#0" expanded="true" />
-                    <element signature="e#5521#5579#0" expanded="true" />
-                    <element signature="e#5766#5856#0" expanded="true" />
-                    <element signature="e#6097#6174#0" expanded="true" />
-                    <element signature="e#6837#6900#0" expanded="true" />
-                    <element signature="e#7010#7099#0" expanded="true" />
-                    <element signature="e#7213#7283#0" expanded="true" />
-                    <element signature="e#7431#7494#0" expanded="true" />
-                    <element signature="e#7575#7635#0" expanded="true" />
-                    <element signature="e#7723#7785#0" expanded="true" />
-                    <element signature="e#7907#8000#0" expanded="true" />
+                    <element signature="e#640#717#0" expanded="true" />
+                    <element signature="e#1997#2058#0" expanded="true" />
+                    <element signature="e#2164#2250#0" expanded="true" />
+                    <element signature="e#2421#2484#0" expanded="true" />
+                    <element signature="e#2577#2638#0" expanded="true" />
+                    <element signature="e#2720#2778#0" expanded="true" />
+                    <element signature="e#2867#2927#0" expanded="true" />
+                    <element signature="e#3049#3139#0" expanded="true" />
+                    <element signature="e#3288#3357#0" expanded="true" />
+                    <element signature="e#4154#4219#0" expanded="true" />
+                    <element signature="e#4361#4373#0" expanded="true" />
+                    <element signature="e#4757#4823#0" expanded="true" />
+                    <element signature="e#4939#5030#0" expanded="true" />
+                    <element signature="e#5193#5341#0" expanded="true" />
+                    <element signature="e#5488#5554#0" expanded="true" />
+                    <element signature="e#5637#5700#0" expanded="true" />
+                    <element signature="e#5887#5982#0" expanded="true" />
+                    <element signature="e#6223#6300#0" expanded="true" />
+                    <element signature="e#6963#7026#0" expanded="true" />
+                    <element signature="e#7136#7225#0" expanded="true" />
+                    <element signature="e#7339#7409#0" expanded="true" />
+                    <element signature="e#7557#7620#0" expanded="true" />
+                    <element signature="e#7701#7761#0" expanded="true" />
+                    <element signature="e#7849#7911#0" expanded="true" />
+                    <element signature="e#8033#8126#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -211,8 +221,10 @@
         <option value="$PROJECT_DIR$/iterator.hpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/transform.hpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/copy.hpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/buffer.hpp" />
+        <option value="$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp" />
         <option value="$PROJECT_DIR$/iterators.h" />
       </list>
     </option>
@@ -224,8 +236,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="23" />
+    <option name="x" value="-3" />
+    <option name="y" value="34" />
     <option name="width" value="2560" />
     <option name="height" value="1413" />
   </component>
@@ -474,10 +486,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="23" width="2560" height="1413" extended-state="6" />
-    <editor active="false" />
+    <frame x="-3" y="34" width="2560" height="1413" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43675596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -781,14 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/buffer.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="10" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/detail/buffer_value.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2055">
@@ -893,27 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="306" column="24" selection-start-line="306" selection-start-column="19" selection-end-line="306" selection-end-column="24" />
-          <folding>
-            <element signature="e#763#798#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/iterator/buffer_iterator.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="164" column="5" selection-start-line="161" selection-start-column="3" selection-end-line="164" selection-end-column="5" />
-          <folding>
-            <element signature="e#543#561#0" expanded="true" />
-            <element signature="e#5565#5577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/type_traits/is_device_iterator.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -944,45 +927,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iterators.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding>
-            <element signature="e#119#136#0" expanded="true" />
-            <element signature="e#638#715#0" expanded="true" />
-            <element signature="e#1995#2056#0" expanded="true" />
-            <element signature="e#2162#2248#0" expanded="true" />
-            <element signature="e#2419#2482#0" expanded="true" />
-            <element signature="e#2575#2636#0" expanded="true" />
-            <element signature="e#2718#2776#0" expanded="true" />
-            <element signature="e#2865#2925#0" expanded="true" />
-            <element signature="e#3047#3137#0" expanded="true" />
-            <element signature="e#3286#3355#0" expanded="true" />
-            <element signature="e#4126#4186#0" expanded="true" />
-            <element signature="e#4328#4340#0" expanded="true" />
-            <element signature="e#4724#4785#0" expanded="true" />
-            <element signature="e#4901#4987#0" expanded="true" />
-            <element signature="e#5156#5224#0" expanded="true" />
-            <element signature="e#5377#5438#0" expanded="true" />
-            <element signature="e#5521#5579#0" expanded="true" />
-            <element signature="e#5766#5856#0" expanded="true" />
-            <element signature="e#6097#6174#0" expanded="true" />
-            <element signature="e#6837#6900#0" expanded="true" />
-            <element signature="e#7010#7099#0" expanded="true" />
-            <element signature="e#7213#7283#0" expanded="true" />
-            <element signature="e#7431#7494#0" expanded="true" />
-            <element signature="e#7575#7635#0" expanded="true" />
-            <element signature="e#7723#7785#0" expanded="true" />
-            <element signature="e#7907#8000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="234" column="17" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
+        <state relative-caret-position="510">
+          <caret line="274" column="6" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
             <element signature="e#611#623#0" expanded="true" />
@@ -991,6 +939,70 @@
             <element signature="e#2254#2269#0" expanded="true" />
             <element signature="e#2668#5061#1" expanded="false" />
             <element signature="e#6035#6047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/iterator/buffer_iterator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
+          <folding>
+            <element signature="e#543#561#0" expanded="true" />
+            <element signature="e#5565#5577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/buffer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="730" column="0" selection-start-line="730" selection-start-column="0" selection-end-line="730" selection-end-column="0" />
+          <folding>
+            <element signature="e#763#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterators.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="109" column="51" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
+          <folding>
+            <element signature="e#119#136#0" expanded="true" />
+            <element signature="e#640#717#0" expanded="true" />
+            <element signature="e#1997#2058#0" expanded="true" />
+            <element signature="e#2164#2250#0" expanded="true" />
+            <element signature="e#2421#2484#0" expanded="true" />
+            <element signature="e#2577#2638#0" expanded="true" />
+            <element signature="e#2720#2778#0" expanded="true" />
+            <element signature="e#2867#2927#0" expanded="true" />
+            <element signature="e#3049#3139#0" expanded="true" />
+            <element signature="e#3288#3357#0" expanded="true" />
+            <element signature="e#4154#4219#0" expanded="true" />
+            <element signature="e#4361#4373#0" expanded="true" />
+            <element signature="e#4757#4823#0" expanded="true" />
+            <element signature="e#4939#5030#0" expanded="true" />
+            <element signature="e#5193#5341#0" expanded="true" />
+            <element signature="e#5488#5554#0" expanded="true" />
+            <element signature="e#5637#5700#0" expanded="true" />
+            <element signature="e#5887#5982#0" expanded="true" />
+            <element signature="e#6223#6300#0" expanded="true" />
+            <element signature="e#6963#7026#0" expanded="true" />
+            <element signature="e#7136#7225#0" expanded="true" />
+            <element signature="e#7339#7409#0" expanded="true" />
+            <element signature="e#7557#7620#0" expanded="true" />
+            <element signature="e#7701#7761#0" expanded="true" />
+            <element signature="e#7849#7911#0" expanded="true" />
+            <element signature="e#8033#8126#0" expanded="true" />
           </folding>
         </state>
       </provider>
