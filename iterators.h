@@ -111,8 +111,6 @@ public:
     using reference = typename super_type::reference;
     using difference_type = typename super_type::difference_type;
 
-    Iterator_facaded_buff(Container &vec) : m_index(0), m_buffer(vec.get_buffer().get(), false){}
-    Iterator_facaded_buff(Container &vec, int start) : m_index(start), m_buffer(vec.get_buffer().get(), false){}
     Iterator_facaded_buff(Container &vec) : m_index(0), m_buffer(vec.get_buffer().get(), false){
         //printf("constructor\n");
        // vec[2] = 34.;
