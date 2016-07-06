@@ -262,16 +262,18 @@ int main()
     cout << "\tbcompvecfac_dest[2] after creation : " << bcompvec_dest[2] << endl;
     Iterator_facaded_buff<float> myItCompbegfacbuff(bcompvec, 0); // works
     Iterator_facaded_buff<float> myItCompendfacbuff(bcompvec, bcompvec.size());
-    // CIterator_facaded<float> myItcCompbegfac(bcompvecfac, 0); // works
-    // CIterator_facaded<float> myItcCompendfac(bcompvecfac, bcompvecfac.size());
     Iterator_facaded_buff<float> myItCompbegfacbuff_dest(bcompvec_dest, 0);
-    Iterator_facaded_buff<float> myItCompendfacbuf_dest(bcompvec, bcompvec_dest.size());
-    //compute::copy(myItCompbegfacbuff, myItCompendfacbuff, myItCompbegfacbuff_dest); // works
+    Iterator_facaded_buff<float> myItCompendfacbuf_dest(bcompvec_dest, bcompvec_dest.size());
+
+    cout << "###COPY (Iterator_facaded_buff)" << endl;
+    compute::copy(myItCompbegfacbuff, myItCompendfacbuff, myItCompbegfacbuff_dest); // works
+    cout << "///COPY (Iterator_facaded_buff) " << endl;
+    //bcompvec_dest[2] = 37.;
     queue.finish();
-    //cout << "\tbcompvecfac_dest[2] after copy : " << bcompvec_dest[2] << endl;//
+    cout << "\tbcompvecfac dest[2] after copy : " << bcompvec_dest[2] << endl;//
     cout << "###TRANSFORM (Iterator_facaded_buff)" << endl;
     auto expr2 = _1+10;
-    compute::transform(myItCompbegfacbuff, myItCompendfacbuff, myItCompbegfacbuff_dest, expr2);
+    ////compute::transform(myItCompbegfacbuff, myItCompendfacbuff, myItCompbegfacbuff_dest, expr2);
     //compute::transform (bcompvec.begin(), bcompvec.end(), bcompvec_dest.begin(), expr2); // benchmark
     queue.finish();
     cout << "///TRANSFORM (Iterator_facaded_buff)" << endl;
