@@ -67,8 +67,8 @@
           <file leaf-file-name="vector.hpp" pinned="false" current-in-tab="true">
             <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="730" column="0" selection-start-line="730" selection-start-column="0" selection-end-line="730" selection-end-column="0" />
+                <state relative-caret-position="5010">
+                  <caret line="341" column="31" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="31" />
                   <folding>
                     <element signature="e#763#798#0" expanded="true" />
                   </folding>
@@ -139,8 +139,8 @@
           <file leaf-file-name="iterators.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/iterators.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="109" column="51" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
+                <state relative-caret-position="675">
+                  <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
                   <folding>
                     <element signature="e#119#136#0" expanded="true" />
                     <element signature="e#640#717#0" expanded="true" />
@@ -962,20 +962,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="730" column="0" selection-start-line="730" selection-start-column="0" selection-end-line="730" selection-end-column="0" />
-          <folding>
-            <element signature="e#763#798#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iterators.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="109" column="51" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
+        <state relative-caret-position="675">
+          <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
           <folding>
             <element signature="e#119#136#0" expanded="true" />
             <element signature="e#640#717#0" expanded="true" />
@@ -1003,6 +993,16 @@
             <element signature="e#7701#7761#0" expanded="true" />
             <element signature="e#7849#7911#0" expanded="true" />
             <element signature="e#8033#8126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5010">
+          <caret line="341" column="31" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="31" />
+          <folding>
+            <element signature="e#763#798#0" expanded="true" />
           </folding>
         </state>
       </provider>
