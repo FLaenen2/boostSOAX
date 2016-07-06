@@ -113,6 +113,16 @@ public:
 
     Iterator_facaded_buff(Container &vec) : m_index(0), m_buffer(vec.get_buffer().get(), false){}
     Iterator_facaded_buff(Container &vec, int start) : m_index(start), m_buffer(vec.get_buffer().get(), false){}
+    Iterator_facaded_buff(Container &vec) : m_index(0), m_buffer(vec.get_buffer().get(), false){
+        //printf("constructor\n");
+       // vec[2] = 34.;
+
+    }
+    Iterator_facaded_buff(Container &vec, int start) : m_index(start), m_buffer(vec.get_buffer().get(), false){
+        //printf("constructor start\n");
+        //m_buffer[2] = 34.;
+        //this->operator[]();
+    }
 
     ~Iterator_facaded_buff(){m_buffer.get() = 0;}
 
@@ -132,8 +142,12 @@ public:
     boost::compute::detail::buffer_iterator_index_expr<T, Expr>
     operator[](const Expr &expr) const
     {
-        BOOST_ASSERT(m_buffer.get());
 
+        BOOST_ASSERT(m_buffer.get());
+        printf("operator[]\n");
+
+        auto el = expr;
+       // std::cout << float(el) << std::endl;
         return boost::compute::detail::buffer_iterator_index_expr<T, Expr>(
                 m_buffer, m_index, boost::compute::memory_object::global_memory, expr
         );

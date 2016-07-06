@@ -33,11 +33,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="274" column="6" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
+                <state relative-caret-position="240">
+                  <caret line="269" column="45" selection-start-line="269" selection-start-column="45" selection-end-line="269" selection-end-column="45" />
                   <folding>
                     <element signature="e#0#17#0" expanded="true" />
                     <element signature="e#611#623#0" expanded="true" />
@@ -54,8 +54,8 @@
           <file leaf-file-name="buffer_iterator.hpp" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/iterator/buffer_iterator.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
+                <state relative-caret-position="434">
+                  <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
                   <folding>
                     <element signature="e#543#561#0" expanded="true" />
                     <element signature="e#5565#5577#0" expanded="true" />
@@ -64,13 +64,29 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="vector.hpp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="copy_on_device.hpp" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/detail/copy_on_device.hpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="960">
+                  <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="vector.hpp" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="5010">
                   <caret line="341" column="31" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="31" />
+=======
+                <state relative-caret-position="157">
+                  <caret line="735" column="46" selection-start-line="735" selection-start-column="38" selection-end-line="735" selection-end-column="46" />
+>>>>>>> origin/master
                   <folding>
                     <element signature="e#763#798#0" expanded="true" />
+                    <element signature="e#21129#21151#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -79,7 +95,7 @@
           <file leaf-file-name="transform.hpp" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/transform.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-201">
+                <state relative-caret-position="-195">
                   <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
                   <folding>
                     <element signature="e#1172#1236#0" expanded="true" />
@@ -91,8 +107,8 @@
           <file leaf-file-name="buffer.hpp" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/buffer.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="246">
-                  <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+                <state relative-caret-position="31">
+                  <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -101,32 +117,10 @@
           <file leaf-file-name="transform_iterator.hpp" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/iterator/transform_iterator.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="59" />
+                <state relative-caret-position="133">
+                  <caret line="174" column="33" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
                   <folding>
                     <element signature="e#7476#7518#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="struct.hpp" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/types/struct.hpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1545">
-                  <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sort.hpp" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/sort.hpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="393">
-                  <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#5546#5577#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -136,11 +130,16 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="iterators.h" pinned="false" current-in-tab="true">
+          <file leaf-file-name="iterators.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/iterators.h">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="675">
                   <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+=======
+                <state relative-caret-position="225">
+                  <caret line="149" column="42" selection-start-line="149" selection-start-column="42" selection-end-line="149" selection-end-column="42" />
+>>>>>>> origin/master
                   <folding>
                     <element signature="e#119#136#0" expanded="true" />
                     <element signature="e#640#717#0" expanded="true" />
@@ -152,22 +151,22 @@
                     <element signature="e#2867#2927#0" expanded="true" />
                     <element signature="e#3049#3139#0" expanded="true" />
                     <element signature="e#3288#3357#0" expanded="true" />
-                    <element signature="e#4154#4219#0" expanded="true" />
-                    <element signature="e#4361#4373#0" expanded="true" />
-                    <element signature="e#4757#4823#0" expanded="true" />
-                    <element signature="e#4939#5030#0" expanded="true" />
-                    <element signature="e#5193#5341#0" expanded="true" />
-                    <element signature="e#5488#5554#0" expanded="true" />
-                    <element signature="e#5637#5700#0" expanded="true" />
-                    <element signature="e#5887#5982#0" expanded="true" />
-                    <element signature="e#6223#6300#0" expanded="true" />
-                    <element signature="e#6963#7026#0" expanded="true" />
-                    <element signature="e#7136#7225#0" expanded="true" />
-                    <element signature="e#7339#7409#0" expanded="true" />
-                    <element signature="e#7557#7620#0" expanded="true" />
-                    <element signature="e#7701#7761#0" expanded="true" />
-                    <element signature="e#7849#7911#0" expanded="true" />
-                    <element signature="e#8033#8126#0" expanded="true" />
+                    <element signature="e#4324#4389#0" expanded="true" />
+                    <element signature="e#4531#4543#0" expanded="true" />
+                    <element signature="e#5031#5097#0" expanded="true" />
+                    <element signature="e#5213#5304#0" expanded="true" />
+                    <element signature="e#5467#5615#0" expanded="true" />
+                    <element signature="e#5762#5828#0" expanded="true" />
+                    <element signature="e#5911#5974#0" expanded="true" />
+                    <element signature="e#6161#6256#0" expanded="true" />
+                    <element signature="e#6497#6574#0" expanded="true" />
+                    <element signature="e#7237#7300#0" expanded="true" />
+                    <element signature="e#7410#7499#0" expanded="true" />
+                    <element signature="e#7613#7683#0" expanded="true" />
+                    <element signature="e#7831#7894#0" expanded="true" />
+                    <element signature="e#7975#8035#0" expanded="true" />
+                    <element signature="e#8123#8185#0" expanded="true" />
+                    <element signature="e#8307#8400#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -176,8 +175,8 @@
           <file leaf-file-name="copy.hpp" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/copy.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="189" column="37" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
+                <state relative-caret-position="103">
+                  <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
                   <folding>
                     <element signature="e#1460#1503#0" expanded="true" />
                     <element signature="e#3590#3633#0" expanded="true" />
@@ -186,24 +185,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="copy_on_device.hpp" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/detail/copy_on_device.hpp">
+          <file leaf-file-name="meta_kernel.hpp" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/detail/meta_kernel.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-975">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="is_device_iterator.hpp" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/type_traits/is_device_iterator.hpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+                <state relative-caret-position="245">
+                  <caret line="918" column="30" selection-start-line="918" selection-start-column="20" selection-end-line="918" selection-end-column="30" />
                   <folding>
-                    <element signature="e#1053#1069#0" expanded="true" />
-                    <element signature="e#1144#1160#0" expanded="true" />
+                    <element signature="e#11967#11976#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -222,10 +210,11 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/transform.hpp" />
         <option value="$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/copy.hpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/buffer.hpp" />
         <option value="$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp" />
         <option value="$PROJECT_DIR$/iterators.h" />
+        <option value="$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/detail/meta_kernel.hpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -236,10 +225,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="34" />
-    <option name="width" value="2560" />
-    <option name="height" value="1413" />
+    <option name="x" value="6" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -270,17 +259,7 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="boostCompute" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boostCompute" />
+              <option name="myItemId" value="boostSOAX" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,6 +271,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="/opt/local/bin/node" />
   </component>
   <component name="RunManager" selected="Application.boostCompute">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="boostCompute" TARGET_NAME="boostCompute" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
@@ -486,20 +466,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="34" width="2560" height="1413" extended-state="0" />
+    <frame x="6" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.059027776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43675596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43656716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -525,15 +505,45 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>317</line>
+          <line>319</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/copy.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2835">
+          <caret line="189" column="37" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
+          <folding>
+            <element signature="e#1460#1503#0" expanded="true" />
+            <element signature="e#3590#3633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/detail/copy_on_device.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/type_traits/is_device_iterator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="e#1053#1069#0" expanded="true" />
+            <element signature="e#1144#1160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -580,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2055">
           <caret line="137" column="6" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,6 +599,7 @@
           <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
           <folding>
             <element signature="e#763#798#0" expanded="true" />
+            <element signature="e#21129#21151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -598,7 +608,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5175">
           <caret line="345" column="46" selection-start-line="345" selection-start-column="43" selection-end-line="345" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="e#1460#1503#0" expanded="true" />
+            <element signature="e#3590#3633#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -623,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2055">
           <caret line="137" column="6" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2055">
           <caret line="137" column="6" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,25 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/sort.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-          <folding>
-            <element signature="e#5546#5577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/types/struct.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-990">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,29 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="723" column="24" selection-start-line="723" selection-start-column="24" selection-end-line="723" selection-end-column="24" />
-          <folding>
-            <element signature="e#35469#35660#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/transform.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <element signature="e#1172#1236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/iterator/transform_iterator.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="59" />
-          <folding>
-            <element signature="e#7476#7518#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,7 +857,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27">
           <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/container/vector.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="735" column="46" selection-start-line="735" selection-start-column="38" selection-end-line="735" selection-end-column="46" />
+          <folding>
+            <element signature="e#763#798#0" expanded="true" />
+            <element signature="e#21129#21151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/buffer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/transform.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="e#1172#1236#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -908,10 +900,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/sort.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding>
+            <element signature="e#5546#5577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/types/struct.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/iterator/transform_iterator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="174" column="33" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
+          <folding>
+            <element signature="e#7476#7518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/copy.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="189" column="37" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
+        <state relative-caret-position="103">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
           <folding>
             <element signature="e#1460#1503#0" expanded="true" />
             <element signature="e#3590#3633#0" expanded="true" />
@@ -919,53 +939,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/detail/copy_on_device.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="274" column="6" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#611#623#0" expanded="true" />
-            <element signature="e#624#2120#1" expanded="false" />
-            <element signature="e#2131#2146#0" expanded="true" />
-            <element signature="e#2254#2269#0" expanded="true" />
-            <element signature="e#2668#5061#1" expanded="false" />
-            <element signature="e#6035#6047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/iterator/buffer_iterator.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
-          <folding>
-            <element signature="e#543#561#0" expanded="true" />
-            <element signature="e#5565#5577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/buffer.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iterators.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="149" column="42" selection-start-line="149" selection-start-column="42" selection-end-line="149" selection-end-column="42" />
           <folding>
             <element signature="e#119#136#0" expanded="true" />
             <element signature="e#640#717#0" expanded="true" />
@@ -977,22 +954,74 @@
             <element signature="e#2867#2927#0" expanded="true" />
             <element signature="e#3049#3139#0" expanded="true" />
             <element signature="e#3288#3357#0" expanded="true" />
-            <element signature="e#4154#4219#0" expanded="true" />
-            <element signature="e#4361#4373#0" expanded="true" />
-            <element signature="e#4757#4823#0" expanded="true" />
-            <element signature="e#4939#5030#0" expanded="true" />
-            <element signature="e#5193#5341#0" expanded="true" />
-            <element signature="e#5488#5554#0" expanded="true" />
-            <element signature="e#5637#5700#0" expanded="true" />
-            <element signature="e#5887#5982#0" expanded="true" />
-            <element signature="e#6223#6300#0" expanded="true" />
-            <element signature="e#6963#7026#0" expanded="true" />
-            <element signature="e#7136#7225#0" expanded="true" />
-            <element signature="e#7339#7409#0" expanded="true" />
-            <element signature="e#7557#7620#0" expanded="true" />
-            <element signature="e#7701#7761#0" expanded="true" />
-            <element signature="e#7849#7911#0" expanded="true" />
-            <element signature="e#8033#8126#0" expanded="true" />
+            <element signature="e#4324#4389#0" expanded="true" />
+            <element signature="e#4531#4543#0" expanded="true" />
+            <element signature="e#5031#5097#0" expanded="true" />
+            <element signature="e#5213#5304#0" expanded="true" />
+            <element signature="e#5467#5615#0" expanded="true" />
+            <element signature="e#5762#5828#0" expanded="true" />
+            <element signature="e#5911#5974#0" expanded="true" />
+            <element signature="e#6161#6256#0" expanded="true" />
+            <element signature="e#6497#6574#0" expanded="true" />
+            <element signature="e#7237#7300#0" expanded="true" />
+            <element signature="e#7410#7499#0" expanded="true" />
+            <element signature="e#7613#7683#0" expanded="true" />
+            <element signature="e#7831#7894#0" expanded="true" />
+            <element signature="e#7975#8035#0" expanded="true" />
+            <element signature="e#8123#8185#0" expanded="true" />
+            <element signature="e#8307#8400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/detail/meta_kernel.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="918" column="30" selection-start-line="918" selection-start-column="20" selection-end-line="918" selection-end-column="30" />
+          <folding>
+            <element signature="e#11967#11976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/iterator/buffer_iterator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#543#561#0" expanded="true" />
+            <element signature="e#5565#5577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Development/boost_1_61_0/boost/compute/algorithm/detail/copy_on_device.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/iterators.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="269" column="45" selection-start-line="269" selection-start-column="45" selection-end-line="269" selection-end-column="45" />
+>>>>>>> origin/master
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#611#623#0" expanded="true" />
+            <element signature="e#624#2120#1" expanded="false" />
+            <element signature="e#2131#2146#0" expanded="true" />
+            <element signature="e#2254#2269#0" expanded="true" />
+            <element signature="e#2668#5061#1" expanded="false" />
+            <element signature="e#6035#6047#0" expanded="true" />
           </folding>
         </state>
       </provider>
